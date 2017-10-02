@@ -4,12 +4,14 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
     width: 100%;
 }
+
 .description td,
 .table_header th,
 .table_row td {
     border-bottom: 1px solid rgb(221, 221, 221);
 }
-.description td ,
+
+.description td,
 .italic {
     font-style: italic;
 }
@@ -20,6 +22,7 @@
     text-align: center;
     background-color: #f5f5f5;
 }
+
 .table_header th,
 .table_row td {
     padding: 5px 0;
@@ -74,12 +77,14 @@ table p,
 .panel-heading:nth-child(1n+2) {
     border-top: 1px solid rgb(221, 221, 221);
 }
+
 #footer-menu {
     border-top: 1px solid rgb(230, 230, 230);
     display: flex;
     justify-content: space-around;
     background-color: rgb(248, 248, 248);
 }
+
 #copywright p {
     text-align: center;
     background-color: rgb(248, 248, 248);
