@@ -144,7 +144,6 @@ footer #social-links a {
     display: inline-block;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin: 0 4px;
     transition: all .5s ease-in-out;
 }
 
@@ -171,4 +170,15 @@ footer #social-links a:hover {
 
 .skill-name {
     font-size: larger;
+}
+
+#codewars-badge {
+    max-width: 100%;
+    height:auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
