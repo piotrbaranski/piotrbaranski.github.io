@@ -1,17 +1,11 @@
-# Savage Worlds helper
+# Piotr Barański's visiting card website
 
-This is a Savage Worlds' GM helper. I am creating this for myself to gather all information I need for running a game.
+This is my visiting card, where I will include some information about me and my journey to the magical front-end world.  
 
-Currently, bestiary section is still under development. I am basing at *Savage Free Bestiary: Reformatted* originally created by Butch Curry and later updated by Andrea “Lord Lance” Parducci.
+It was created as a part of a homework given by *infoShare Academy's* trainer.
 
-There will be also armoury and spells sections (basing at *Savage Armoury* and *Savage Spellbook* created by Richard Woolcock).
+On this website you will find an information about how strong I feel in particular technologies/frameworks, projects I have finished and contact details,
 
-Below you will find links to all resources:
-
-[Link to *Savage Free Bestiary: Reformatted*](https://savagepedia.wikispaces.com/file/view/Savage+Bestiary+Reformatted.pdf)
-
-[Link to *Savage Armoury*](http://www.godwars2.org/SavageWorlds/SavageArmoury.pdf)
-
-[Link to *Savage Spellbook*](http://www.godwars2.org/SavageWorlds/SavageSpellbook.pdf)
+Below you will find link to my website:
 
 [Link to the project](piotrbaranski.github.io)

@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 300px;
+}
+
+p, h1, h2, h3, h4 {
+    font-family: Helvetica, sans-serif;
+    color: #454545;
+}
+
+a:hover,
+#social-links {
+    text-decoration: none;
+}
+
+button {
+    display: inline;
+}
+
+#background-image {
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/nordwood-themes-166423.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero-footer,
+#hero-main {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hero-main {
+    top: 50%;
+}
+
+#hero-footer {
+    top: 90%;
+}
+
+#learn-more-button,
+#visit-website-button,
+#email-button {
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#learn-more-button {
+    border: none;
+    outline: none;
+}
+
+#visit-website-button,
+#email-button {
+    border: 3px solid #4B64BE;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    margin-left: 26%;
+    margin-bottom: 10%;
+}
+
+.test {
+    padding-left: 50%;
+}
+
+.gray-background {
+    background-color: #EDEDEE;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #project-screenshot {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #project-description {
+        margin-top: 25px;
+    }
+    #project-screenshot {
+        margin-top: 60px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #project-screenshot {
+        margin-top: 35px;
+    }
+}
+
+.button-glow,
+#learn-more-button {
+    background-color: transparent;
+}
+
+.button-glow {
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.5s;
+    transition-property: box-shadow;
+}
+
+.button-glow:hover, .button-glow:focus, .button-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.button-fade {
+    overflow: hidden;
+    transition-property: color, background-color;
+}
+
+.button-fade:hover, .button-fade:focus, .button-fade:active {
+    background-color: #2A2D34;
+    color: #DCDCDC;
+}
+
+.new-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-text,
+.footer-text {
+    margin-bottom: 30px;
+}
+
+.black-background {
+    background-color: #2A2D34;
+}
+
+footer #social-links a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin: 0 4px;
+    transition: all .5s ease-in-out;
+}
+
+footer #social-links a:hover {
+    color: white;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.4)
+}
+
+.teaser-text {
+    margin-top: 50px;
+}
+
+.learn-more.toggle {
+    color: white;
+}
+
+.description-text {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: larger;
+}
