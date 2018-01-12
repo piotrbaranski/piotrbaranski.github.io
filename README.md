@@ -1,4 +1,4 @@
-# Piotr Barański's visiting card website
+# Piotr Barański visiting card website
 
 This is my visiting card, where I will include some information about me and my journey to the magical front-end world.  
 
