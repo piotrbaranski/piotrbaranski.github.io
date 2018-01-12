@@ -8,4 +8,4 @@ On this website you will find an information about how strong I feel in particul
 
 Below you will find link to my website:
 
-[Link to the project](piotrbaranski.github.io)
+[Link to the project](https://piotrbaranski.github.io/)
