@@ -93,6 +93,7 @@ button {
         margin-top: 60px;
     }
 }
+
 @media only screen and (min-width: 1200px) {
     #project-screenshot {
         margin-top: 35px;
