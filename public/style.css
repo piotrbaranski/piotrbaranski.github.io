@@ -24,7 +24,7 @@ button {
 #background-image {
     position: relative;
     height: 100vh;
-    background-image: url('../images/nordwood-themes-166423.jpg');
+    background-image: url('nordwood-themes-166423.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -133,7 +133,8 @@ button {
 }
 
 .header-text,
-.footer-text {
+.footer-text,
+.flex-container {
     margin-bottom: 30px;
 }
 
@@ -149,7 +150,7 @@ footer #social-links a {
 }
 
 footer #social-links a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .footer-text {
@@ -160,12 +161,20 @@ footer #social-links a:hover {
     margin-top: 50px;
 }
 
+.learn-more,
+.description-text {
+    font-size: large;
+}
+
+.learn-more {
+    color: #B59983;
+}
+
 .learn-more.toggle {
-    color: white;
+    color: #000;
 }
 
 .description-text {
-    font-size: large;
     margin-bottom: 20px;
 }
 
@@ -181,5 +190,4 @@ footer #social-links a:hover {
 .flex-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
 }
