@@ -5,10 +5,10 @@
 body {
     margin: 0;
     min-width: 300px;
+    font-family: Helvetica, sans-serif;
 }
 
 p, h1, h2, h3, h4 {
-    font-family: Helvetica, sans-serif;
     color: #454545;
 }
 
@@ -28,7 +28,7 @@ button {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 #hero-footer,
@@ -190,4 +190,19 @@ footer #social-links a:hover {
 .flex-container {
     display: flex;
     justify-content: center;
+}
+
+.header-text{
+    position: relative;
+}
+
+.header-text:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #474747;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
 }
