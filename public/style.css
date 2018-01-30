@@ -61,7 +61,7 @@ button {
 
 #visit-website-button,
 #email-button {
-    border: 3px solid #4B64BE;
+    border: 3px solid #E5C600;
     border-radius: 20px;
 }
 
@@ -88,6 +88,7 @@ button {
     #project-description {
         margin-top: 25px;
     }
+
     #project-screenshot {
         margin-top: 60px;
     }
@@ -185,7 +186,7 @@ footer #social-links a:hover {
 
 #codewars-badge {
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
 
 .flex-container {
@@ -193,7 +194,7 @@ footer #social-links a:hover {
     justify-content: center;
 }
 
-.section-header{
+.section-header {
     position: relative;
 }
 
@@ -209,5 +210,6 @@ footer #social-links a:hover {
 }
 
 .section-header-subtitle {
-margin-bottom: 40px;
+    margin-bottom: 40px;
+    color: #808080;
 }
