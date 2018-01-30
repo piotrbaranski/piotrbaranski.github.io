@@ -63,7 +63,6 @@ button {
 #email-button {
     border: 3px solid #4B64BE;
     border-radius: 20px;
-    margin-bottom: 20px;
 }
 
 .progress-bar {
@@ -132,7 +131,7 @@ button {
     padding-bottom: 40px;
 }
 
-.header-text,
+.section-header,
 .footer-text,
 .flex-container {
     margin-bottom: 30px;
@@ -174,6 +173,8 @@ footer #social-links a:hover {
     color: #000;
 }
 
+#visit-website-button,
+#email-button,
 .description-text {
     margin-bottom: 20px;
 }
@@ -192,11 +193,11 @@ footer #social-links a:hover {
     justify-content: center;
 }
 
-.header-text{
+.section-header{
     position: relative;
 }
 
-.header-text:after {
+.section-header:after {
     position: absolute;
     content: '';
     width: 100px;
@@ -205,4 +206,8 @@ footer #social-links a:hover {
     bottom: -15px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.section-header-subtitle {
+margin-bottom: 40px;
 }
