@@ -47,7 +47,7 @@ button {
 }
 
 #learn-more-button,
-#visit-website-button,
+.visit-website-button,
 #email-button {
     cursor: pointer;
     overflow: hidden;
@@ -59,15 +59,17 @@ button {
     outline: none;
 }
 
-#visit-website-button,
+.visit-website-button,
 #email-button {
     border: 3px solid #E5C600;
     border-radius: 20px;
 }
 
-.progress-bar {
-    margin-left: 26%;
-    margin-bottom: 10%;
+@media only screen and (min-width: 397px) {
+    .progress-bar {
+        margin-left: 26%;
+        margin-bottom: 10%;
+    }
 }
 
 .test {
@@ -79,23 +81,23 @@ button {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    #project-screenshot {
+    .project-screenshot {
         margin-top: 100px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    #project-description {
+    .project-description {
         margin-top: 25px;
     }
 
-    #project-screenshot {
+    .project-screenshot {
         margin-top: 60px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    #project-screenshot {
+    .project-screenshot {
         margin-top: 35px;
     }
 }
@@ -174,7 +176,7 @@ footer #social-links a:hover {
     color: #000;
 }
 
-#visit-website-button,
+.visit-website-button,
 #email-button,
 .description-text {
     margin-bottom: 20px;
@@ -213,3 +215,12 @@ footer #social-links a:hover {
     margin-bottom: 40px;
     color: #808080;
 }
+
+.separator {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
