@@ -229,3 +229,12 @@ footer #social-links a:hover {
     border: 3px solid #E5C600;
     border-radius: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+    .project-screenshot {
+        transition: transform 0.7s;
+    }
+    .project-screenshot:hover {
+        transform: rotate(3deg);
+    }
+}
