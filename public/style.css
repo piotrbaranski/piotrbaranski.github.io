@@ -238,3 +238,7 @@ footer #social-links a:hover {
         transform: rotate(3deg);
     }
 }
+
+.bold-text {
+    font-weight: bold;
+}
