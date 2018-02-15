@@ -1,5 +1,6 @@
 p, h1, h2, h3, h4 {
     color: #454545;
+    line-height: 1.4;
 }
 
 .section-header,
@@ -59,4 +60,28 @@ p, h1, h2, h3, h4 {
 .section-header-subtitle {
     margin-bottom: 40px;
     color: #808080;
+}
+
+a:hover,
+#social-links {
+    text-decoration: none;
+}
+
+.separator {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer #social-links a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+footer #social-links a:hover {
+    color: #ffffff;
 }

@@ -61,3 +61,7 @@ body {
 .flex-item-projects {
     flex: 100%;
 }
+
+footer .container .flex-container {
+    margin-bottom:22px;
+}
