@@ -9,6 +9,14 @@
         margin-bottom: 10%;
     }
 }
+@media only screen and (max-width: 396px) {
+    .progress-bar {
+        margin-left: 26%;
+        margin-bottom: 10%;
+        transform: translateX(-50%);
+        right: -50%;
+    }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .project-screenshot {
