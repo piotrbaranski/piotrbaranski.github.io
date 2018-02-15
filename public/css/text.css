@@ -1,3 +1,7 @@
+p, h1, h2, h3, h4 {
+    color: #454545;
+}
+
 .section-header,
 .footer-text {
     margin-bottom: 30px;
@@ -18,6 +22,7 @@
 
 .learn-more {
     color: #B59983;
+    margin-bottom:0;
 }
 
 .learn-more.toggle {
@@ -34,4 +39,24 @@
 
 .text-center {
     text-align: center;
+}
+
+.section-header {
+    position: relative;
+}
+
+.section-header:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: #474747;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-header-subtitle {
+    margin-bottom: 40px;
+    color: #808080;
 }

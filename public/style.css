@@ -1,48 +1,11 @@
 @import url(css/buttons.css);
 @import url(css/text.css);
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    min-width: 300px;
-    font-family: Helvetica, sans-serif;
-}
-
-p, h1, h2, h3, h4 {
-    color: #454545;
-}
+@import url(css/images.css);
+@import url(css/containers.css);
 
 a:hover,
 #social-links {
     text-decoration: none;
-}
-
-#background-image {
-    position: relative;
-    height: 100vh;
-    background-image: url('nordwood-themes-166423.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
-
-#hero-footer,
-#hero-main {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#hero-main {
-    top: 50%;
-}
-
-#hero-footer {
-    top: 90%;
 }
 
 @media only screen and (min-width: 397px) {
@@ -50,14 +13,6 @@ a:hover,
         margin-left: 26%;
         margin-bottom: 10%;
     }
-}
-
-.test {
-    padding-left: 50%;
-}
-
-.gray-background {
-    background-color: #EDEDEE;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -82,15 +37,6 @@ a:hover,
     }
 }
 
-.new-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.black-background {
-    background-color: #2A2D34;
-}
-
 footer #social-links a {
     display: inline-block;
     color: rgba(255, 255, 255, 0.6);
@@ -100,37 +46,6 @@ footer #social-links a {
 
 footer #social-links a:hover {
     color: #ffffff;
-}
-
-#codewars-badge {
-    max-width: 100%;
-    height: auto;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.section-header {
-    position: relative;
-}
-
-.section-header:after {
-    position: absolute;
-    content: '';
-    width: 100px;
-    height: 3px;
-    background-color: #474747;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.section-header-subtitle {
-    margin-bottom: 40px;
-    color: #808080;
 }
 
 .separator {
@@ -149,24 +64,6 @@ footer #social-links a:hover {
     .project-screenshot:hover {
         transform: rotate(3deg);
     }
-}
-
-.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -191,18 +88,10 @@ footer .container .flex-container {
     margin-bottom: 30px;
 }
 
-.flex-item {
-    flex: 50%;
-}
-
 @media (min-width: 768px) {
     .flex-item {
         flex: 25%;
     }
-}
-
-.flex-item-projects {
-    flex: 100%;
 }
 
 @media (min-width: 768px) {
@@ -210,17 +99,8 @@ footer .container .flex-container {
         flex: 1;
         margin: 0 5px 0 5px;
     }
+
     .separator + .flex-container {
         flex-direction: row-reverse;
     }
-}
-
-.img-responsive {
-    display: block;
-    max-width: 100%;
-    height:auto;
-}
-
-#social-links > p {
-    flex: 100%;
 }
