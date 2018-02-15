@@ -135,8 +135,7 @@ button {
 }
 
 .section-header,
-.footer-text,
-.flex-container {
+.footer-text {
     margin-bottom: 30px;
 }
 
@@ -194,6 +193,7 @@ footer #social-links a:hover {
 .flex-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .section-header {
@@ -234,6 +234,7 @@ footer #social-links a:hover {
     .project-screenshot {
         transition: transform 0.7s;
     }
+
     .project-screenshot:hover {
         transform: rotate(3deg);
     }
@@ -242,3 +243,80 @@ footer #social-links a:hover {
 .bold-text {
     font-weight: bold;
 }
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: normal;
+    white-space: nowrap;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+}
+
+.button:hover,
+#email-button:hover {
+    border-color: rgb(173, 173, 173)
+}
+
+.button-large {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+footer .container .flex-container {
+    margin-bottom: 30px;
+}
+
+.flex-item {
+    flex: 50%;
+}
+
+@media (min-width: 768px) {
+    .flex-item {
+        flex: 25%;
+    }
+}
+
