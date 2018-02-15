@@ -1,0 +1,37 @@
+.section-header,
+.footer-text {
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.4)
+}
+
+.teaser-text {
+    margin-top: 50px;
+}
+
+.learn-more,
+.description-text {
+    font-size: large;
+}
+
+.learn-more {
+    color: #B59983;
+}
+
+.learn-more.toggle {
+    color: #000;
+}
+
+.skill-name {
+    font-size: larger;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}

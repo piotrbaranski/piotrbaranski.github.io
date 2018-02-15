@@ -1,0 +1,72 @@
+button {
+    display: inline;
+}
+
+.button {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    touch-action: manipulation;
+    user-select: none;
+    background-image: none;
+}
+
+.button,
+#learn-more-button {
+    cursor: pointer;
+    outline: none;
+}
+
+#learn-more-button {
+    border: none;
+}
+
+.visit-website-button,
+#email-button,
+.contact-button {
+    border: 3px solid #E5C600;
+    border-radius: 20px;
+}
+
+.button-glow,
+#learn-more-button {
+    background-color: transparent;
+}
+
+.button-glow {
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.5s;
+    transition-property: box-shadow;
+}
+
+.button-glow:hover, .button-glow:focus, .button-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.button-fade {
+    transition-property: color, background-color;
+}
+
+.button-fade:hover, .button-fade:focus, .button-fade:active {
+    background-color: #2A2D34;
+    color: #DCDCDC;
+}
+
+.visit-website-button,
+#email-button,
+.description-text {
+    margin-bottom: 20px;
+}
+
+.button:hover,
+#email-button:hover {
+    border-color: rgb(173, 173, 173)
+}
+
+.button-large {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}

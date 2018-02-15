@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Piotr Barański</title>
     <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
     <link href="css-percentage-circle-master/css/circle.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/style.css">
@@ -25,7 +24,7 @@
         <div id="hero-footer">
             <button type="button" id="learn-more-button" class="learn-more">
                 <p class="learn-more">Learn more about me</p>
-                <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                <span class="fa fa-angle-down fa-2x" aria-hidden="true"></span>
             </button>
         </div>
     </div>
@@ -127,8 +126,8 @@
             <h2 class="text-center section-header bold-text">My Projects</h2>
             <h4 class="text-center section-header-subtitle bold-text">Explore projects, which can be also found on my GitHub
                 profile</h4>
-            <div class="container">
-                <div class="col-xs-12 col-sm-6 project-description">
+            <div class="container flex-container">
+                <div class="flex-item-projects project-description">
                     <h3 class="text-center bold-text">Financial analyzer</h3>
                     <p class="description-text">Financial analyzer is a project I worked during my front-end course in
                         infoShare Academy.
@@ -144,7 +143,7 @@
                             onclick="window.open('http://npnd.jfdz6.is-academy.pl/','_blank')">VISIT WEBSITE
                     </button>
                 </div>
-                <div class="col-xs-12 col-sm-6">
+                <div class="flex-item-projects">
                     <a href="http://npnd.jfdz6.is-academy.pl/" target="_blank">
                         <img src="public/Screenshot%20from%202018-01-11%2006-37-57.png"
                              class="img-responsive project-screenshot"
@@ -152,8 +151,8 @@
                 </div>
             </div>
             <hr class="separator">
-            <div class="container">
-                <div class="col-xs-12 col-sm-6 col-sm-push-6 project-description">
+            <div class="container flex-container">
+                <div class="flex-item-projects project-description">
                     <h3 class="text-center bold-text">Financial application, which will (not) make you rich</h3>
                     <p class="description-text">It is another project I worked during my front-end course in InfoShare
                         Academy. It is written in React, state is contained by using Redux. We used mostly reactrap with
@@ -166,7 +165,7 @@
                             onclick="window.open('http://app.npnd.jfdz6.is-academy.pl','_blank')">VISIT WEBSITE
                     </button>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                <div class="flex-item-projects">
                     <a href="http://app.npnd.jfdz6.is-academy.pl" target="_blank">
                         <img src="public/app.png" class="img-responsive project-screenshot"
                              alt="Project screenshot"></a>
@@ -198,14 +197,14 @@
                      id="codewars-badge"/>
             </a>
         </div>
-        <div id="social-links" class="text-center">
+        <div id="social-links" class="text-center flex-container">
             <p class="footer-text">Handmade by me © 2018</p>
-            <div class="col-xs-6">
+            <div class="flex-item">
                 <a href="https://github.com/piotrbaranski" target="_blank">
                     <i class="fa fa-github fa-5x" aria-hidden="true"></i>
                 </a>
             </div>
-            <div class="col-xs-6">
+            <div class="flex-item">
                 <a href="https://www.linkedin.com/in/piotr-baranski/" target="_blank">
                     <i class="fa fa-linkedin fa-5x" aria-hidden="true"></i></a>
             </div>
