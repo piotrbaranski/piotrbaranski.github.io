@@ -40,6 +40,14 @@ function turnOffHamburger() {
   }
 }
 
+function turnOnHamburger() {
+  var windowWidth = window.innerWidth;
+  var item = document.getElementById('menu');
+  if (windowWidth <= 767) {
+    item.classList.add('hidden');
+  }
+}
+
 function changeClass() {
   var hamburger = document.getElementById('burger-nav');
   hamburger.onclick = toggleMenu;
@@ -51,4 +59,7 @@ window.onload = function () {
   turnOffHamburger();
 }
 
-window.resize = turnOffHamburger;
+window.onresize = function () {
+  turnOffHamburger();
+  turnOnHamburger()
+}
