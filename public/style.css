@@ -9,6 +9,7 @@
         margin-bottom: 10%;
     }
 }
+
 @media only screen and (max-width: 396px) {
     .progress-bar {
         margin-left: 26%;
@@ -84,5 +85,62 @@
 
     .separator + .flex-container {
         flex-direction: row-reverse;
+    }
+}
+
+nav {
+    position: fixed;
+    background-color: #2A2D34;
+    z-index: 1;
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 15px 30px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: x-large;
+    transition: all .5s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+#burger-nav {
+    display: block;
+    cursor: pointer;
+}
+
+.navbar-text {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@media only screen and (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #burger-nav {
+        display: none;
     }
 }
