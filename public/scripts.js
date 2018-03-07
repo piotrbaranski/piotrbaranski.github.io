@@ -21,45 +21,31 @@ setInterval(function () {
   $('.learn-more').toggleClass('toggle', 1000);
 }, 2000);
 
-function toggleMenu() {
-  var item = document.getElementById('menu');
-  if (item.className === 'hidden') {
-    item.classList.remove('hidden');
-    item.classList.add('show');
+function displayMenu() {
+  var menu = document.getElementById('menu');
+  if (menu.className === 'hidden') {
+    menu.classList.remove('hidden');
+    menu.classList.add('show');
   } else {
-    item.classList.remove('show');
-    item.classList.add('hidden');
+    menu.classList.remove('show');
+    menu.classList.add('hidden');
   }
 }
 
-function turnOffHamburger() {
+function displayHamburger() {
   var windowWidth = window.innerWidth;
-  var item = document.getElementById('menu');
-  if (windowWidth > 767) {
-    item.classList.remove('hidden', 'show');
-  }
+  var menu = document.getElementById('menu');
+  windowWidth > 767 ? menu.classList.remove('hidden', 'show') : menu.classList.add('hidden');
 }
 
-function turnOnHamburger() {
-  var windowWidth = window.innerWidth;
-  var item = document.getElementById('menu');
-  if (windowWidth <= 767) {
-    item.classList.add('hidden');
-  }
-}
-
-function changeClass() {
+function changeMenuClass() {
   var hamburger = document.getElementById('burger-nav');
-  hamburger.onclick = toggleMenu;
+  hamburger.onclick = displayMenu;
 }
-
 
 window.onload = function () {
-  changeClass();
-  turnOffHamburger();
+  changeMenuClass();
+  displayHamburger();
 }
 
-window.onresize = function () {
-  turnOffHamburger();
-  turnOnHamburger()
-}
+window.onresize = displayHamburger;
