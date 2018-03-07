@@ -140,6 +140,7 @@ nav a:hover {
         display: flex;
         justify-content: flex-end;
     }
+
     #burger-nav {
         display: none;
     }
