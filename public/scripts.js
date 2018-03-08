@@ -21,6 +21,14 @@ setInterval(function () {
   $('.learn-more').toggleClass('toggle', 1000);
 }, 2000);
 
+function topButtonFunction() {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    $('#top-button').addClass('active');
+  } else {
+    $('#top-button').removeClass('active');
+  }
+}
+
 function displayMenu() {
   var menu = document.getElementById('menu');
   if (menu.className === 'hidden') {
@@ -49,3 +57,5 @@ window.onload = function () {
 }
 
 window.onresize = displayHamburger;
+
+window.onscroll = topButtonFunction;
