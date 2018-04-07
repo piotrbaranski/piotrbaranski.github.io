@@ -1,7 +1,7 @@
-@import url(css/buttons.css);
-@import url(css/text.css);
-@import url(css/images.css);
-@import url(css/containers.css);
+@import url(buttons.css);
+@import url(text.css);
+@import url(images.css);
+@import url(containers.css);
 
 @media only screen and (min-width: 397px) {
     .progress-bar {
